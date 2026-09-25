@@ -1,4 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap');
-@tailwind base; @tailwind components; @tailwind utilities;
-:root{color-scheme:dark}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#090b0a;color:#f2f4ef;font-family:'DM Sans',sans-serif}a{color:inherit;text-decoration:none}button{cursor:pointer}::selection{background:#ccff00;color:#090b0a}
-.wrap{width:min(1180px,calc(100% - 40px));margin:auto}.eyebrow{font:500 11px 'DM Mono',monospace;letter-spacing:.18em;color:#ccff00}.display{font-family:Oswald,sans-serif;letter-spacing:-.025em;text-transform:uppercase}.muted{color:#929891}.panel{background:#121513;border:1px solid #282d29}.pill{font:500 10px 'DM Mono',monospace;letter-spacing:.08em;border:1px solid #343a35;border-radius:999px;padding:6px 10px;text-transform:uppercase}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:14px 18px;border-radius:5px;transition:.2s}.btn-primary{background:#ccff00;color:#090b0a}.btn-primary:hover{background:#e0ff66;transform:translateY(-1px)}.btn-secondary{border:1px solid #3a403b;background:#171b18;color:#f2f4ef}.btn-secondary:hover{border-color:#ccff00}.input{width:100%;background:#111411;border:1px solid #303630;padding:12px 14px;border-radius:5px;color:white;outline:none}.input:focus{border-color:#ccff00}.workout-image{width:100%;height:100%;object-fit:cover;filter:saturate(.75);transition:transform .4s}.card-image{height:210px;overflow:hidden;background:#1a201b}.workout-card:hover .workout-image{transform:scale(1.04)}.stat{display:flex;align-items:center;gap:6px;font:11px 'DM Mono',monospace;color:#a4aaa3}
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  color-scheme: dark;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: #090b0a;
+  color: #f2f4ef;
+  font-family: "DM Sans", sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+::selection {
+  background: #ccff00;
+  color: #090b0a;
+}
+.wrap {
+  width: min(1180px, calc(100% - 40px));
+  margin: auto;
+}
+.eyebrow {
+  font:
+    500 11px "DM Mono",
+    monospace;
+  letter-spacing: 0.18em;
+  color: #ccff00;
+}
+.display {
+  font-family: Oswald, sans-serif;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+.muted {
+  color: #929891;
+}
+.panel {
+  background: #121513;
+  border: 1px solid #282d29;
+}
+.pill {
+  font:
+    500 10px "DM Mono",
+    monospace;
+  letter-spacing: 0.08em;
+  border: 1px solid #343a35;
+  border-radius: 999px;
+  padding: 6px 10px;
+  text-transform: uppercase;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 14px 18px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.btn-primary {
+  background: #ccff00;
+  color: #090b0a;
+}
+.btn-primary:hover {
+  background: #e0ff66;
+  transform: translateY(-1px);
+}
+.btn-secondary {
+  border: 1px solid #3a403b;
+  background: #171b18;
+  color: #f2f4ef;
+}
+.btn-secondary:hover {
+  border-color: #ccff00;
+}
+.input {
+  width: 100%;
+  background: #111411;
+  border: 1px solid #303630;
+  padding: 12px 14px;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+}
+.input:focus {
+  border-color: #ccff00;
+}
+.workout-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.75);
+  transition: transform 0.4s;
+}
+.card-image {
+  height: 210px;
+  overflow: hidden;
+  background: #1a201b;
+}
+.workout-card:hover .workout-image {
+  transform: scale(1.04);
+}
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font:
+    11px "DM Mono",
+    monospace;
+  color: #a4aaa3;
+}
